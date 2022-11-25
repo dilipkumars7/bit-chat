@@ -1,0 +1,36 @@
+.header__main{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 50px;
+    align-items: center;
+    width: 90%;
+    padding: 0px 20px;
+}
+.home__nav>img{
+    object-fit: contain;
+    height: 50px;
+}
+.home__nav{
+    display: flex;
+    align-items: center;    
+    background-color: white;
+    padding-right: 10px;
+    justify-content: space-between;
+    border:1.5px solid gray;
+    border-radius: 15px;
+    color: #3730A3;
+    font-weight: 500;
+}
+.about__nav{
+    display: flex;
+    align-items: center;    
+    background-color: #3730A3;
+    padding: 0px 10px 0px 10px;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    color: white;
+    font-weight: 500;
+    height: inherit;
+    width: auto;
+}
